@@ -29,3 +29,26 @@ let myObj = {
 }
 
 function(){}
+
+//************************MEMORY*****************************
+ //Stack ( Primitive), Heap (Non-Primitive)
+
+ let myyoutubename = "harshit Mishra.com"
+
+ let anothername = myyoutubenameanother = "chaiaurcode"
+
+ console.log(myyoutubename);
+ console.log(anotherneme);
+
+ let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "harshit@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+
